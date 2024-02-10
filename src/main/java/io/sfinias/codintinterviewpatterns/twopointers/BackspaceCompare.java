@@ -54,5 +54,8 @@ public class BackspaceCompare {
         return index1 == index2;
     }
 
+    // Time Complexity O(M + N)
+    // Space Complexity O(1)
+
 
 }
