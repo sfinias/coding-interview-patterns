@@ -13,6 +13,14 @@ public class LinkedListCycle {
 
             this.value = value;
         }
+
+        @Override
+        public String toString() {
+
+            return "ListNode{" +
+                    "value=" + value +
+                    '}';
+        }
     }
 
     public static boolean hasCycle(ListNode head) {

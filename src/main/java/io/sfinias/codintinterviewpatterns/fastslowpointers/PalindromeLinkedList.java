@@ -44,6 +44,9 @@ public class PalindromeLinkedList {
 
     }
 
+    // Time Complexity O(N)
+    // Space Complexity O(1)
+
     private static ListNode reverse(ListNode head) {
 
         ListNode prev = null;
